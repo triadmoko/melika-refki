@@ -16,8 +16,6 @@ const router = createRouter({
       name: "nama",
       component: CoverNameView,
     },
-    // will match everything and put it under `$route.params.name`
-    { path: "/:name(.*)*", name: "NotFound", component: "<h1>not found</h1>" },
     {
       path: "/undang",
       // route level code-splitting
@@ -26,7 +24,6 @@ const router = createRouter({
       component: Undangan,
     },
   ],
-  strict: true, // applies to all routes
 });
 
 export default router;
