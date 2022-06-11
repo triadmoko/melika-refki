@@ -12,11 +12,12 @@ const router = createRouter({
       component: CoverView,
     },
     {
-      path: "/:nama",
-      sensitive: true,
+      path: "/:name",
       name: "nama",
       component: CoverNameView,
     },
+    // will match everything and put it under `$route.params.name`
+    { path: "/:name(.*)*", name: "NotFound", component: "<h1>not found</h1>" },
     {
       path: "/undang",
       // route level code-splitting
