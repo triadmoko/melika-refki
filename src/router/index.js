@@ -12,7 +12,7 @@ const router = createRouter({
       component: CoverView,
     },
     {
-      path: "/:name",
+      path: "/:name/:partner",
       name: "nama",
       component: CoverNameView,
     },
