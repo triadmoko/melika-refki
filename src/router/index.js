@@ -13,6 +13,7 @@ const router = createRouter({
     },
     {
       path: "/:nama",
+      sensitive: true,
       name: "nama",
       component: CoverNameView,
     },
@@ -24,6 +25,7 @@ const router = createRouter({
       component: Undangan,
     },
   ],
+  strict: true, // applies to all routes
 });
 
 export default router;
