@@ -9,8 +9,8 @@ import { RouterLink, RouterView } from 'vue-router'
     <h2>
       Maimbau Baralek
     </h2>
-    <center>
-      <div class="z-10 max-w-sm w-3/4 flex justify-center my-40 lg:max-w-full lg:flex ">
+    <div class="flex items-center justify-center h-screen">
+      <div class="items-center max-w-sm flex w-3/4 justify-center my-40 lg:max-w-full lg:flex ">
         <div class="max-w-sm rounded overflow-hidden shadow-lg bg-gray-200">
           <img class="w-full" src="./../assets/images/da882706-4a56-4247-86e3-97fe0daa191c.jpeg"
             alt="Sunset in the mountains">
@@ -28,8 +28,7 @@ import { RouterLink, RouterView } from 'vue-router'
           </div>
         </div>
       </div>
-    </center>
-
+    </div>
     <div class="leaf">
       <div> <img src="http://www.pngmart.com/files/1/Fall-Autumn-Leaves-Transparent-PNG.png" height="75px"
           width="75px" /></div>
