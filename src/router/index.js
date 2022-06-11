@@ -7,10 +7,12 @@ const router = createRouter({
   routes: [
     {
       path: "/",
+      name: "home",
       component: CoverView,
     },
     {
       path: "/:nama",
+      name: "nama",
       component: CoverView,
     },
     {
