@@ -18,7 +18,7 @@ import { RouterLink } from 'vue-router'
             <div class="font-bold text-center text-xl mb-2">Refki & Melika</div>
             <p class="text-gray-700 text-base text-center">
               Kepada yang terhormat Bapak/Ibu Saudara/I Kami mengundang : <br><br>
-              <span class="nama"></span>
+              <span class="nama">{{ $route.params.nama }}</span>
             </p>
           </div>
           <div class="px-6 pt-4 pb-2 flex justify-center">

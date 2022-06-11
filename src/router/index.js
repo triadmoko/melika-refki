@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import CoverView from "../views/CoverView.vue";
+import CoverNameView from "../views/CoverNameView.vue";
 import Undangan from "../views/UndanganView.vue";
 
 const router = createRouter({
@@ -13,7 +14,7 @@ const router = createRouter({
     {
       path: "/:nama",
       name: "nama",
-      component: CoverView,
+      component: CoverNameView,
     },
     {
       path: "/undang",
