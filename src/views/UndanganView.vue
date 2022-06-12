@@ -207,6 +207,37 @@ import 'animate.css';
       </div>
     </div>
   </section>
+  <section>
+    <div class=" py-16">
+      <div class="text-center desc">
+        <h1>Wedding Gift</h1>
+      </div>
+      <div class=" grid grid-cols-1 gap-1 mx-auto">
+        <div class="max-w-md py-4 px-8 bg-white rounded-lg my-20">
+          <div class="rounded-lg grid grid-cols-1 shadow-lg gap-1 mx-auto">
+            <div class="w-full rounded-sm p-4">
+              <img
+                src="https://rec-data.kalibrr.com/www.kalibrr.com/logos/9PAJ9S3WW6URAHYJFHBG956Z3JTJ54YCJ4VX63HT-6090fe16.png"
+                alt="">
+              <p>1110018708939 <br> A/n Melika Santi Mendrofa</p>
+            </div>
+          </div>
+          <br>
+          <div class="rounded-lg grid grid-cols-1 shadow-lg  gap-1 mx-auto p-4">
+            <div class="w-full rounded-sm">
+              <img width="100" src="https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2021/10/02/2358485646.jpg"
+                alt="">
+              <br>
+              <p>0058-01-128577-50-2 <br> A/n Melika Santi Mendrofa</p>
+            </div>
+          </div>
+          <div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 </template>
 
 <style scoped>
