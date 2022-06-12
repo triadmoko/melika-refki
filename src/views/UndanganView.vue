@@ -212,7 +212,7 @@ import 'animate.css';
       <div class="text-center desc">
         <h1>Wedding Gift</h1>
       </div>
-      <div class=" grid grid-cols-1 gap-1 mx-auto">
+      <div class="grid grid-cols-1 gap-1 justify-center mx-auto">
         <div class="max-w-md py-4 px-8 bg-white rounded-lg my-20">
           <div class="rounded-lg grid grid-cols-1 shadow-lg gap-1 mx-auto">
             <div class="w-full rounded-sm p-4">
@@ -237,7 +237,6 @@ import 'animate.css';
       </div>
     </div>
   </section>
-
 </template>
 
 <style scoped>

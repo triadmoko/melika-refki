@@ -21,10 +21,14 @@ import { RouterLink } from 'vue-router'
               <span class="nama"></span>
             </p>
           </div>
-          <div class="px-6 pt-4 pb-2 flex justify-center">
+          <div class="px-6 pt-4 pb-2 flex text-center justify-center">
             <RouterLink to="/undang"
               class="z-20 inline-block text-center bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
               #Buka Undangan</RouterLink>
+          </div>
+          <div
+            class="z-20 flex justify-center bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            <img class="w-10" src="./../assets/images/tdfprogramminglogo.png" alt="">
           </div>
         </div>
       </div>
