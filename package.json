@@ -8,13 +8,17 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "@chenfengyuan/vue-countdown": "^2.0.0",
     "@headlessui/vue": "^1.6.4",
     "@heroicons/vue": "^1.0.6",
+    "animate.css": "^4.1.1",
     "autoprefixer": "^9.8.8",
     "howler": "^2.2.3",
     "postcss": "^7.0.39",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
-    "vue": "^3.2.36",
+    "tinymotion": "^0.2.0",
+    "vue": "^3.2.37",
+    "vue-radial-progress": "^0.3.2",
     "vue-router": "^4.0.15"
   },
   "devDependencies": {
