@@ -13,6 +13,7 @@
     "@heroicons/vue": "^1.0.6",
     "animate.css": "^4.1.1",
     "autoprefixer": "^9.8.8",
+    "fastcomments-vue-next": "^3.0.2",
     "howler": "^2.2.3",
     "postcss": "^7.0.39",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",

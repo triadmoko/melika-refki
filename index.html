@@ -6,11 +6,34 @@
   <link rel="icon" href="/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Refki&Melika</title>
+  <link rel="stylesheet" href="https://latest.cactus.chat/style.css">
 </head>
 
+
 <body>
-  <div id="app"></div>
+  <div id="app">
+
+  </div>
+  <div class="bg-white py-14 bg-gradient-to-r from-cyan-500 to-blue-500">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8  rounded-md">
+      <div id="comment-section"></div>
+    </div>
+  </div>
+
+
+
+
   <script type="module" src="/src/main.js"></script>
+  <script src="https://latest.cactus.chat/cactus.js"></script>
+  <script>
+    initComments({
+      node: document.getElementById("comment-section"),
+      defaultHomeserverUrl: "https://matrix.cactus.chat:8448",
+      serverName: "cactus.chat",
+      siteName: "melika-refki.tdfprogramming.com",
+      commentSectionId: "1"
+    })
+  </script>
 </body>
 
 </html>

@@ -1,6 +1,7 @@
 <script setup>
 import 'animate.css';
 
+
 </script>
 <template>
   <main>
@@ -8,6 +9,7 @@ import 'animate.css';
       <source src="./../assets/music/music.mp3" type="audio/mpeg">
     </audio>
   </main>
+
   <section>
     <div class="bgaja bg-white py-14 bg-gradient-to-r from-cyan-500 to-blue-500">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8  rounded-md">
@@ -29,7 +31,7 @@ import 'animate.css';
             <div class="flex justify-center">
               <div
                 class=" animate__animated animate__bounce animate-bounce bg-white dark:bg-slate-800 p-2 w-10 h-10 ring-1 ring-slate-900/5 dark:ring-slate-200/20 shadow-lg rounded-full flex items-center justify-center">
-                <svg class="w-6 h-6 text-violet-500" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                <svg class="w-6 h-6 text-yellow-700" fill="none" stroke-linecap="round" stroke-linejoin="round"
                   stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
                   <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
                 </svg>
@@ -40,8 +42,9 @@ import 'animate.css';
       </div>
     </div>
   </section>
+
   <section>
-    <div class="s bg-white py-14 bg-gradient-to-r from-cyan-500 to-blue-500">
+    <div class="bg-white py-14 bg-gradient-to-r from-cyan-500 to-blue-500">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8  rounded-md">
         <div class="text-center ">
           <p class="mt-4 max-w-2xl text-gray-500 lg:mx-auto">
@@ -69,6 +72,137 @@ import 'animate.css';
           Putra dari Bapak Aries Chan dan Ibu Nelmy Yetti
           <br>
           </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class=" bgaja bg-white py-14 bg-gradient-to-r from-cyan-500 to-blue-500">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8  rounded-md">
+        <div class="text-center ">
+          <p class="mt-4 max-w-2xl text-gray-500 lg:mx-auto">
+            InsyaAllah akan dilaksanakan pada :
+          <div class="flex justify-center animate__animated animate__fadeInUp">
+            <img src="./../assets/images/top.png" alt="">
+          </div>
+          </p>
+          <br>
+          <div class="grid grid-cols-1 gap-2 sm:grid-cols-2 justify-center	">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
+              <h1 class="desc">Akad Nikah</h1>
+              <img class="rounded-md shadow-2xl border-4 animate__animated animate__fadeInBottomLeft"
+                src="./../assets/images/card-akad-nikah.png" alt="">
+            </div>
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
+              <h1 class="desc">Resepsi</h1>
+              <img class="rounded-md shadow-2xl border-4 animate__animated animate__fadeInBottomRight"
+                src="./../assets/images/card-resepsi.png" alt="">
+            </div>
+          </div>
+          <p class="mt-4 lg:mx-auto">Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i
+            berkenan hadir untuk memberikan do'a dan restu kepada putra-putri kami</p>
+
+          <!-- <div class="relative rounded-xl overflow-auto p-8">
+            <div class="flex justify-center">
+                Hormat Kami Yang Berbahagia:
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="bg-white py-14 bg-gradient-to-r from-cyan-500 to-blue-500">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8  rounded-md">
+        <div class="text-center ">
+          <p class="mt-4 max-w-2xl text-gray-500 lg:mx-auto">
+            Hormat Kami Yang Berbahagia :
+          <div class="flex justify-center">
+            <img src="./../assets/images/top.png" alt="">
+          </div>
+          </p>
+          <br>
+          <div class="grid grid-cols-1 gap-2 sm:grid-cols-2 justify-center	">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
+              <h2 class="desc">Kel. Bapak Ide Siddik Mendrofa & Ibu Ernawati Hasibuan</h2>
+            </div>
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
+              <h2 class="desc">Kel. Bapak Aries Chan & Ibu Nelmy Yetti</h2>
+            </div>
+          </div>
+          <div class="relative rounded-xl overflow-auto p-8">
+            <div class="flex justify-center">
+              <table>
+                <tr>
+                  <th colspan="2"> Turut Mengundang :</th>
+                </tr>
+                <tr>
+                  <td>M. Widodo Mendrofa </td>
+                  <td>(Pak Uda)</td>
+                </tr>
+                <tr>
+                  <td>Purwati </td>
+                  <td>(Mak Uda)</td>
+                </tr>
+                <tr>
+                  <td>Vany Krisman Mendrofa </td>
+                  <td>(Adik)</td>
+                </tr>
+                <tr>
+                  <td>Rahmad Kelvin Mendrofa </td>
+                  <td>(Adik)</td>
+                </tr>
+
+                <tr>
+                  <td>Thasya Yuliyanti M </td>
+                  <td>(Sepupu)</td>
+                </tr>
+                <tr>
+                  <td>Suci Anjani Lestari M </td>
+                  <td>(Sepupu)</td>
+                </tr>
+                <tr>
+                  <td>Fajar Abim Musa M </td>
+                  <td>(Sepupu)</td>
+                </tr>
+                <tr>
+                  <td colspan="2"><br> Beserta Niniak Mamak, Urang Sumando, Sanak Family, dan Kedua Mempelai </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class=" bgaja bg-white bg-gradient-to-r from-cyan-500 to-blue-500">
+      <div class="text-center ">
+        <h1 class="desc">Album</h1>
+      </div>
+      <div class="container grid grid-cols-2 gap-2 mx-auto">
+
+        <div class="w-full rounded-sm">
+          <img class="sm:w-full  " src="./../assets/images/40b158a8-3923-46d9-aaa8-f7ad0fa8c753.jpeg" alt="image">
+        </div>
+        <div class="w-full rounded-sm">
+          <img class="sm:w-full " src="./../assets/images/9ea253c0-0749-4bf5-91d0-3bb8ef5a0099.jpeg" alt="image">
+        </div>
+
+        <div class="w-full  rounded-sm">
+          <img class="" src="./../assets/images/cb624a81-333e-4ec4-941d-475ba8ca14e8.jpeg" alt="image">
+        </div>
+        <div class="w-full rounded-sm">
+          <img src="./../assets/images/6cea47dd-11b2-4b37-9595-13d5f3448602.jpeg" alt="image">
+        </div>
+
+      </div>
+      <br>
+      <div class="container grid grid-cols-1 gap-1 mx-auto">
+        <div class="w-full rounded-sm">
+          <img src="./../assets/images/da882706-4a56-4247-86e3-97fe0daa191c.jpeg" alt="image">
         </div>
       </div>
     </div>
