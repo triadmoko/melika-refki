@@ -235,6 +235,12 @@ import 'animate.css';
           </div>
         </div>
       </div>
+      <div class="text-center ">
+        <h1 class="desc">Maps</h1>
+      </div>
+       <div class="flex justify-center p-4 ">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.211402880432!2d100.63414801475363!3d-0.9993816992709843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe7a11922823b7f97!2zMMKwNTknNTcuOCJTIDEwMMKwMzgnMTAuOCJF!5e0!3m2!1sen!2sid!4v1655133347312!5m2!1sen!2sid" class="rounded-sm p-4"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       </div>
     </div>
   </section>
 </template>
