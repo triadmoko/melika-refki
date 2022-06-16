@@ -88,16 +88,21 @@ import 'animate.css';
           </div>
           </p>
           <br>
-          <div class="grid grid-cols-1 gap-2 sm:grid-cols-2 justify-center	">
+          <div class="grid grid-cols-1 gap-2 sm:grid-cols-3 justify-center">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
               <h1 class="desc">Akad Nikah</h1>
               <img class="rounded-md shadow-2xl border-4 animate__animated animate__fadeInBottomLeft"
                 src="./../assets/images/card-akad-nikah.png" alt="">
             </div>
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
-              <h1 class="desc">Resepsi</h1>
+              <h1 class="desc">Resepsi Wanita</h1>
               <img class="rounded-md shadow-2xl border-4 animate__animated animate__fadeInBottomRight"
                 src="./../assets/images/card-resepsi.png" alt="">
+            </div>
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
+              <h1 class="desc">Resepsi Pria</h1>
+              <img class="rounded-md shadow-2xl border-4 animate__animated animate__fadeInBottomRight"
+                src="./../assets/images/card-resepsi-pria.png" alt="">
             </div>
           </div>
           <p class="mt-4 lg:mx-auto">Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i
@@ -212,35 +217,50 @@ import 'animate.css';
       <div class="text-center desc">
         <h1>Wedding Gift</h1>
       </div>
-      <div class="grid grid-cols-1 gap-1 justify-center mx-auto">
-        <div class="max-w-md py-4 px-8 bg-white rounded-lg my-20">
-          <div class="rounded-lg grid grid-cols-1 shadow-lg gap-1 mx-auto">
-            <div class="w-full rounded-sm p-4">
-              <img
-                src="https://rec-data.kalibrr.com/www.kalibrr.com/logos/9PAJ9S3WW6URAHYJFHBG956Z3JTJ54YCJ4VX63HT-6090fe16.png"
-                alt="">
-              <p>1110018708939 <br> A/n Melika Santi Mendrofa</p>
-            </div>
-          </div>
-          <br>
-          <div class="rounded-lg grid grid-cols-1 shadow-lg  gap-1 mx-auto p-4">
-            <div class="w-full rounded-sm">
-              <img width="100" src="https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2021/10/02/2358485646.jpg"
-                alt="">
+      <div class="bg-white py-14 bg-gradient-to-r from-cyan-500 to-blue-500">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 rounded-md">
+          <div class="grid grid-cols-1 gap-2 sm:grid-cols-3 justify-center mx-auto">
+            <div class="max-w-md py-4 px-8 bg-white rounded-lg my-20">
+              <div class="rounded-lg shadow-lg mx-auto p-4">
+                <div class="w-full rounded-sm ">
+                  <img
+                    src="https://rec-data.kalibrr.com/www.kalibrr.com/logos/9PAJ9S3WW6URAHYJFHBG956Z3JTJ54YCJ4VX63HT-6090fe16.png"
+                    alt="">
+                  <p>1110018708939 <br> A/n Melika Santi Mendrofa</p>
+                </div>
+              </div>
               <br>
-              <p>0058-01-128577-50-2 <br> A/n Melika Santi Mendrofa</p>
+              <div class="rounded-lg shadow-lg mx-auto p-4">
+                <div class="w-full rounded-sm">
+                  <img width="100"
+                    src="https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2021/10/02/2358485646.jpg" alt="">
+                  <br>
+                  <p>0058-01-128577-50-2 <br> A/n Melika Santi Mendrofa</p>
+                </div>
+              </div>
+              <br>
+              <div class="rounded-lg shadow-lg mx-auto p-4">
+                <div class="w-full rounded-sm">
+                  <img width="100"
+                    src="https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2021/10/02/2358485646.jpg" alt="">
+                  <br>
+                  <p>8050-01-004129-53-6 <br> A/n Refki Ramadhani</p>
+                </div>
+              </div>
+              <div>
+              </div>
             </div>
-          </div>
-          <div>
           </div>
         </div>
       </div>
       <div class="text-center ">
         <h1 class="desc">Maps</h1>
       </div>
-       <div class="flex justify-center p-4 ">
-         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.211402880432!2d100.63414801475363!3d-0.9993816992709843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe7a11922823b7f97!2zMMKwNTknNTcuOCJTIDEwMMKwMzgnMTAuOCJF!5e0!3m2!1sen!2sid!4v1655133347312!5m2!1sen!2sid" class="rounded-sm p-4"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-       </div>
+      <div class="flex justify-center p-4 ">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.211402880432!2d100.63414801475363!3d-0.9993816992709843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe7a11922823b7f97!2zMMKwNTknNTcuOCJTIDEwMMKwMzgnMTAuOCJF!5e0!3m2!1sen!2sid!4v1655133347312!5m2!1sen!2sid"
+          class="rounded-sm p-4" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
     </div>
   </section>
 </template>
