@@ -7,7 +7,7 @@ import { RouterLink } from 'vue-router'
 
   <section>
     <h2>
-      Maimbau Baralek
+      Maimbau Baralek Gadang
     </h2>
     <div class="flex items-center justify-center h-screen">
       <div class="items-center max-w-sm flex w-3/4 justify-center my-40 lg:max-w-full lg:flex ">
